@@ -1,6 +1,7 @@
 # Replication notebook (Google Colab)
 
-This repository contains the Google Colab notebook used to reproduce figures, tables, and key numerical results for the manuscript:
+This repository contains the Google Colab notebook used to reproduce figures, tables,
+and key numerical results for the manuscript:
 
 **A seasonal two-sex matrix framework that links caregiver stages to management thresholds**  
 Shaikh Obaidullah  
@@ -14,7 +15,7 @@ The analysis is implemented as a single Google Colab notebook.
 
 Open the notebook directly in Colab using the badge below and run all cells top-to-bottom.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaikh2010/seasonal-two-sex-matrix-caregiver/blob/main/reproduce_results_colab.ipynb)
+**Open in Colab**
 
 No local installation is required.
 
@@ -24,19 +25,22 @@ No local installation is required.
 
 The notebook reproduces the main computational components of the manuscript:
 
-- **Polar bear (Southern Beaufort Sea; P = 1)**  
-  - caregiver-structured female block  
-  - annual net reproductive number \(R_0\)  
-  - growth rate \(\lambda\)  
-  - elasticities and projections  
+### Polar bear (Southern Beaufort Sea; P = 1)
 
-- **Black-tailed prairie dog (P = 12)**  
-  - data-driven ingestion of USGS survival and reproduction CSVs  
-  - construction of monthly survival and fecundity blocks  
-  - periodic next-generation operator \(R_{0,\mathrm{per}}\)  
-  - seasonal diagnostics and invasion calculations  
+- caregiver-structured female block
+- annual net reproductive number \( R_0 \)
+- growth rate \( \lambda \)
+- elasticities and population projections
 
-All modeling conventions match the manuscript:
+### Black-tailed prairie dog (P = 12)
+
+- data-driven ingestion of USGS survival and reproduction CSVs
+- construction of monthly survival and fecundity blocks
+- periodic next-generation operator \( R_{0,\mathrm{per}} \)
+- seasonal diagnostics and invasion calculations
+
+All modeling conventions match those stated in the manuscript:
+
 - column-vector (to–from) matrix convention,
 - newborns treated as reported output (not a state),
 - periodic monodromy and next-generation operators defined on the female stage space.
@@ -47,12 +51,12 @@ All modeling conventions match the manuscript:
 
 Running the notebook generates an `out/` directory containing:
 
-- `out/figs/` — PNG figures used in the manuscript
-- `out/tables/` — LaTeX-ready tables and CSV summaries
-- `out/params/` — machine-readable inputs, schema, and audit reports
-- `out/summary/` — JSON summaries for cross-checking results
+- `out/figs/` — PNG figures used in the manuscript  
+- `out/tables/` — LaTeX-ready tables and CSV summaries  
+- `out/params/` — machine-readable inputs, schema, and audit reports  
+- `out/summary/` — JSON summaries for cross-checking results  
 
-These outputs are regenerated each time the notebook is run.
+All outputs are **regenerated each time the notebook is run** and are not version-controlled.
 
 ---
 
@@ -60,8 +64,8 @@ These outputs are regenerated each time the notebook is run.
 
 Prairie-dog data are from the U.S. Geological Survey data release:
 
-- Eads, D. A. (2022). *Black-tailed prairie dog survival and reproduction*.  
-  DOI: https://doi.org/10.5066/P9QTWGP4
+Eads, D. A. (2022). *Black-tailed prairie dog survival and reproduction*.  
+DOI: https://doi.org/10.5066/P9QTWGP4
 
 Polar-bear parameters are literature-derived and documented in the manuscript.
 
@@ -69,9 +73,9 @@ Polar-bear parameters are literature-derived and documented in the manuscript.
 
 ## Notes for reviewers
 
-- Running the notebook is **not required** to review the manuscript.
-- The notebook is provided for transparency and reproducibility.
-- All figures and tables referenced in the manuscript are produced by this workflow.
+Running the notebook is **not required** to review the manuscript.  
+The notebook is provided for transparency and reproducibility.  
+All figures and tables referenced in the manuscript are produced by this workflow.
 
 ---
 
