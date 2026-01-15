@@ -1,17 +1,23 @@
+MIT License
 
----
+Copyright (c) 2026 Shaikh Obaidullah
 
-### 4) `data/README_DATA.md` (keeps you clean on data redistribution)
-Copy/paste:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-```markdown
-# Data instructions (prairie dog)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-The prairie-dog example uses USGS data (Eads 2022): https://doi.org/10.5066/P9QTWGP4
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-If you are not redistributing the CSVs in this repository, download them from USGS and place them in this folder, then update the file paths in `src/prairie_dog_build.py` if needed.
-
-Expected inputs (as referenced in the script):
-- `Fipronil 2018 Monthly Survival.csv`
-- `Fipronil 2020 Reproduction.csv`
 
