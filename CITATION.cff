@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript."
+authors:
+  - family-names: Obaidullah
+    given-names: Shaikh
+title: "Seasonal two-sex matrix framework replication code"
+version: 1.0.0
+date-released: 2026-01-14
+url: "https://github.com/<YOUR_GITHUB_USERNAME>/ECOLOGYPaper_V1"
