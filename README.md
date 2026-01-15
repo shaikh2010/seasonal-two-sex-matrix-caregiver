@@ -14,7 +14,7 @@ The analysis is implemented as a single Google Colab notebook.
 
 Open the notebook directly in Colab using the badge below and run all cells top-to-bottom.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaikh2010/seasonal-two-sex-matrix-caregiver/blob/main/Untitled39.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaikh2010/seasonal-two-sex-matrix-caregiver/blob/main/reproduce_results_colab.ipynb)
 
 No local installation is required.
 
